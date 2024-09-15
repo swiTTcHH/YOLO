@@ -65,6 +65,7 @@ header{
 .signInBtn, .registerBtn{
     border-radius: 0.4em;
     padding: 0.2em 0.4em;
+    cursor: pointer;
 }
 
 .signInBtn{
