@@ -166,6 +166,8 @@ header{
 .journey .imgs {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: center;
 }
 
 .heads{
@@ -181,6 +183,30 @@ header{
     font-weight: 500;
 }
 
+.imgs{
+    margin: 50px 0;
+}
+
+.jrny .numb{
+    background-color: var(--main_pink);
+    margin: 0 auto;
+    width: max-content;
+    padding: 0.6em;
+    border-radius: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    justify-self: self-end;
+}
+
+.step1_text{
+    padding: 4em;
+    background-color: var(--light_pink);
+    border-radius: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow: inset 5px 5px 10px whitesmoke, 5px 10px 10px grey;
+}
 .cta {
     background-color: var(--light_purple);
     text-align: center;
